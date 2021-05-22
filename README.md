@@ -9,7 +9,7 @@
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/rakesh-i/Autonomous-car
+   git clone https://github.com/rakesh-i/MicroPython-Socket-programming
    ```
 2. Install MicroPyhon on ESP32
    
@@ -35,3 +35,6 @@
         ```
         to open esp32 serial monitor. If you see connection successful message then you are good-to-go.
     * Now esp32 is wating for connection from client. Run client.py, which is in Client folder. If you see "Got connection from: 111.111.111.111, 11111" message then you have successfully established a tcp connection between your PC and ESP32.
+
+###Extra
+* Use send command files to send commands to esp32, which can be helpful for creating other projects.
